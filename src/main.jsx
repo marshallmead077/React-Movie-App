@@ -6,7 +6,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Movie-App"> {/* Adjust this to match your repo name */}
       <App />
     </BrowserRouter>
   </StrictMode>
